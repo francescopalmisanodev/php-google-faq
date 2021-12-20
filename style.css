@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+header h2 {
+  color: #5f6368;
+}
+header img {
+  width: 100px;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+header li {
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+header li:last-child {
+  color: lightblue;
+  border-bottom: 3px solid currentColor;
+}
+hr {
+  font-weight: 100;
+  color: rgb(230, 230, 230);
+}
