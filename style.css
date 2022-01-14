@@ -37,3 +37,10 @@ hr {
   font-weight: 100;
   color: rgb(230, 230, 230);
 }
+.container {
+  max-width: 1180px;
+  margin: 40px auto;
+}
+h2 {
+  margin: 20px 0;
+}
